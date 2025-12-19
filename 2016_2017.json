@@ -1,0 +1,756 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "objective",
+    "course_title": "Engineering Mathematics II",
+    "code": "ENG 202.1",
+    "session": "2016/2017",
+    "topics": [
+      "Vectors",
+      "Linear Algebra",
+      "Analytical Geometry",
+      "Conic Sections",
+      "Matrices and Determinants"
+    ],
+    "time": "30mins"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer All Questions"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Vectors"
+    ],
+    "Question": {
+      "content": "Given the vector \\( D = (1, 2, 2) \\), what is the unit vector of D?",
+      "type": "OBJ",
+      "options": [
+        "\\(\\frac{1}{\\sqrt{3}}(1, 2, 2)\\)",
+        "\\(\\frac{1}{3}(1, 2, 1)\\)",
+        "\\(\\frac{1}{3}(1, 2, 2)\\)",
+        "\\(\\frac{1}{3}(1, 2, 1)\\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\(\\frac{1}{3}(1, 2, 2)\\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding a Unit Vector</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Understand the Formula</strong><br>\n    To turn any vector into a \"unit vector\" (a vector with a length of 1), you simply divide the vector by its own magnitude (length).<br>\n    Formula: \\( \\hat{D} = \\frac{\\vec{D}}{|\\vec{D}|} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate the Magnitude</strong><br>\n    For vector \\( (x, y, z) \\), the magnitude is \\( \\sqrt{x^2 + y^2 + z^2} \\).<br>\n    \\( |D| = \\sqrt{1^2 + 2^2 + 2^2} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Divide Vector by Magnitude</strong><br>\n    <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n      \\( \\text{Unit Vector} = \\frac{1}{3}(1, 2, 2) \\)\n    </div>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option corresponding to \\(\\frac{1}{3}(1, 2, 2)\\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Vectors"
+    ],
+    "Question": {
+      "content": "The components of the vector \\( (2, -3, 4) \\) in the i-direction and the j-direction (assumed from context) are respectively _____ and _____",
+      "type": "OBJ",
+      "options": [
+        "2 and -3",
+        "3 and -2",
+        "3 and 4",
+        "2 and 3"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2 and -3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Vector Components</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Standard Basis Vectors</strong><br>\n    A vector \\( (x, y, z) \\) can be written as \\( x\\mathbf{i} + y\\mathbf{j} + z\\mathbf{k} \\).<br>\n    The \"i-direction\" component is just the x-value.<br>\n    The \"j-direction\" component is just the y-value.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Read the Values</strong><br>\n    Given Vector: \\( (2, -3, 4) \\)<br>\n    i-component (x): 2<br>\n    j-component (y): -3\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 2 and -3\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Vectors",
+      "Analytical Geometry"
+    ],
+    "Question": {
+      "content": "The vector equation of a line through the points \\( (1, 2, 3) \\) and \\( (2, -2, 1) \\) is _____.",
+      "type": "OBJ",
+      "options": [
+        "\\( (1, 2, 3) + t(1, -4, -2) \\)",
+        "\\( (1, 3, 2) + t(2, -2, 1) \\)",
+        "\\( (2, -2, 1) + t(1, -4, 2) \\)",
+        "\\( (2, 1, -2) + t(1, 2, 3) \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( (1, 2, 3) + t(1, -4, -2) \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equation of a Line</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: The Formula</strong><br>\n    The equation is \\( \\mathbf{r} = \\mathbf{a} + t\\mathbf{d} \\), where:<br>\n    \\( \\mathbf{a} \\) is a point on the line.<br>\n    \\( \\mathbf{d} \\) is the direction vector (difference between the two points).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Direction (d)</strong><br>\n    Subtract Point 1 from Point 2:<br>\n    \\( \\mathbf{d} = (2 - 1, -2 - 2, 1 - 3) \\)<br>\n    \\( \\mathbf{d} = (1, -4, -2) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Assemble Equation</strong><br>\n    Using Point 1 as \\( \\mathbf{a} \\):<br>\n    \\( \\mathbf{r} = (1, 2, 3) + t(1, -4, -2) \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( (1, 2, 3) + t(1, -4, -2) \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Analytical Geometry"
+    ],
+    "Question": {
+      "content": "The equation of a line is given by \\( r = (1, 2, 2) + t(2, 1, 2) \\) and that of a plane is given by \\( r \\cdot (1, 1, 2) = 8 \\). If the line intersects the plane, find the value of \\( t \\).",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{1}{5} \\)",
+        "\\( \\frac{1}{6} \\)",
+        "\\( \\frac{1}{7} \\)",
+        "\\( \\frac{1}{8} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{1}{7} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Line and Plane Intersection</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Write Line in Coordinates</strong><br>\n    From \\( r = (1, 2, 2) + t(2, 1, 2) \\):<br>\n    \\( x = 1 + 2t \\)<br>\n    \\( y = 2 + 1t \\)<br>\n    \\( z = 2 + 2t \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute into Plane Equation</strong><br>\n    Plane: \\( x + y + 2z = 8 \\)<br>\n    Substitute x, y, z:<br>\n    \\( (1 + 2t) + (2 + t) + 2(2 + 2t) = 8 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve for t</strong><br>\n    \\( 1 + 2t + 2 + t + 4 + 4t = 8 \\)<br>\n    Combine terms: \\( 7 + 7t = 8 \\)<br>\n    \\( 7t = 1 \\implies t = 1/7 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( 1/7 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Analytical Geometry"
+    ],
+    "Question": {
+      "content": "Using the information from Question 4, the coordinates of the point where the line intersects the plane is _____",
+      "type": "OBJ",
+      "options": [
+        "\\( (\\frac{7}{5}, \\frac{11}{5}, \\frac{12}{5}) \\)",
+        "\\( (\\frac{9}{7}, \\frac{15}{7}, \\frac{16}{7}) \\)",
+        "\\( (\\frac{1}{5}, \\frac{1}{6}, \\frac{1}{7}) \\)",
+        "\\( (\\frac{10}{8}, \\frac{17}{8}, \\frac{18}{8}) \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( (\\frac{9}{7}, \\frac{15}{7}, \\frac{16}{7}) \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Intersection Point</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Recall Information</strong><br>\n    Line: \\( r = (1, 2, 2) + t(2, 1, 2) \\)<br>\n    Value of \\( t \\) found in Q4: \\( t = 1/7 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute t back into the line</strong><br>\n    \\( x = 1 + 2(1/7) = 1 + 2/7 = 9/7 \\)<br>\n    \\( y = 2 + 1(1/7) = 2 + 1/7 = 15/7 \\)<br>\n    \\( z = 2 + 2(1/7) = 2 + 2/7 = 16/7 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( (9/7, 15/7, 16/7) \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Vectors"
+    ],
+    "Question": {
+      "content": "Three position vectors in a plane are given as \\( A=(1, 2, -2) \\), \\( B=(2, 3, 1) \\) and \\( C=(-1, -1, 1) \\). The vectors \\( \\vec{AB} \\) and \\( \\vec{AC} \\) are ____ and ____ respectively.",
+      "type": "OBJ",
+      "options": [
+        "\\( (1, 1, 3) \\) and \\( (-2, -3, 3) \\)",
+        "\\( (1, -1, 3) \\) and \\( (2, 3, -3) \\)",
+        "\\( (3, 5, -1) \\) and \\( (1, 2, -2) \\)",
+        "\\( (0, 1, -1) \\) and \\( (-1, -1, 1) \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( (1, 1, 3) \\) and \\( (-2, -3, 3) \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Displacement Vectors</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    To find vector \\( \\vec{AB} \\), you subtract coordinates of Start (A) from End (B).<br>\n    \\( \\vec{AB} = B - A \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate AB</strong><br>\n    \\( \\vec{AB} = (2-1, 3-2, 1-(-2)) \\)<br>\n    \\( \\vec{AB} = (1, 1, 3) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate AC</strong><br>\n    \\( \\vec{AC} = C - A \\)<br>\n    \\( \\vec{AC} = (-1-1, -1-2, 1-(-2)) \\)<br>\n    \\( \\vec{AC} = (-2, -3, 3) \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( (1, 1, 3) \\) and \\( (-2, -3, 3) \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Vectors",
+      "Analytical Geometry"
+    ],
+    "Question": {
+      "content": "Using the data from Question 6, the vector normal to the plane and the vector equation of the plane are ___ and ___ respectively.",
+      "type": "OBJ",
+      "options": [
+        "\\( (3, 6, 1) \\) and \\( r \\cdot (3, 6, 1) = 4 \\)",
+        "\\( (-6, 3, 1) \\) and \\( r \\cdot (-6, 3, 1) = -2 \\)",
+        "\\( (2, -3, 4) \\) and \\( r \\cdot (2, -3, 4) = 5 \\)",
+        "\\( (12, -9, -1) \\) and \\( r \\cdot (12, -9, -1) = -4 \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( (12, -9, -1) \\) and \\( r \\cdot (12, -9, -1) = -4 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Normal Vector and Plane Equation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Find the Normal Vector</strong><br>\n    The normal vector is the Cross Product of two vectors on the plane (\\( \\vec{AB} \\) and \\( \\vec{AC} \\) from Q6).<br>\n    \\( \\vec{n} = \\vec{AB} \\times \\vec{AC} = (1, 1, 3) \\times (-2, -3, 3) \\)<br>\n    \\( i(3 - (-9)) - j(3 - (-6)) + k(-3 - (-2)) \\)<br>\n    \\( \\vec{n} = (12, -9, -1) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Plane Equation Formula</strong><br>\n    Formula: \\( \\mathbf{r} \\cdot \\mathbf{n} = \\mathbf{a} \\cdot \\mathbf{n} \\)<br>\n    Calculate RHS using point A \\( (1, 2, -2) \\):<br>\n    \\( 1(12) + 2(-9) + (-2)(-1) = 12 - 18 + 2 = -4 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( (12, -9, -1) \\) and \\( r \\cdot (12, -9, -1) = -4 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": [
+      "Vectors"
+    ],
+    "Question": {
+      "content": "What is the cosine of the angle between the vectors in the directions \\( (1, 1, 2) \\) and \\( (1, 2, 1) \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{1}{3} \\)",
+        "\\( \\frac{2}{3} \\)",
+        "\\( \\frac{4}{5} \\)",
+        "\\( \\frac{5}{6} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{5}{6} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Angle Between Vectors</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    \\( \\cos \\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| |\\vec{b}|} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Dot Product</strong><br>\n    \\( \\vec{a} \\cdot \\vec{b} = (1)(1) + (1)(2) + (2)(1) = 1 + 2 + 2 = 5 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Magnitudes</strong><br>\n    \\( |\\vec{a}| = \\sqrt{1^2+1^2+2^2} = \\sqrt{6} \\)<br>\n    \\( |\\vec{b}| = \\sqrt{1^2+2^2+1^2} = \\sqrt{6} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Solve</strong><br>\n    \\( \\cos \\theta = \\frac{5}{\\sqrt{6}\\sqrt{6}} = \\frac{5}{6} \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( 5/6 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": [
+      "Vectors"
+    ],
+    "Question": {
+      "content": "The vertices of a triangle are given by the position vectors \\( A=(i+2j-2k) \\), \\( B=(2i+3j+k) \\) and \\( C=(-i-j+k) \\). What is the area of the triangle?",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{1}{2}\\sqrt{230} \\text{ sq.units} \\)",
+        "\\( \\frac{1}{2}\\sqrt{226} \\text{ sq.units} \\)",
+        "\\( \\frac{1}{2}\\sqrt{127} \\text{ sq.units} \\)",
+        "\\( \\frac{1}{2}\\sqrt{117} \\text{ sq.units} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{1}{2}\\sqrt{226} \\text{ sq.units} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Area of Triangle (Vector Method)</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    Area = \\( \\frac{1}{2} |\\vec{AB} \\times \\vec{AC}| \\)<br>\n    Note: These points are the same as in Question 6 and 7.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Previous Cross Product</strong><br>\n    From Question 7, \\( \\vec{AB} \\times \\vec{AC} = (12, -9, -1) \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Magnitude</strong><br>\n    Magnitude = \\( \\sqrt{12^2 + (-9)^2 + (-1)^2} \\)<br>\n    = \\( \\sqrt{144 + 81 + 1} = \\sqrt{226} \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{1}{2}\\sqrt{226} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": [
+      "Vectors"
+    ],
+    "Question": {
+      "content": "The cross product of two vectors leads to _____",
+      "type": "OBJ",
+      "options": [
+        "A normal vector",
+        "A parallel vector",
+        "An ambiguous vector",
+        "A normal scalar"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A normal vector"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Properties of Cross Product</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    The cross product of two vectors, \\( \\vec{a} \\times \\vec{b} \\), produces a new vector that is <strong>perpendicular (normal)</strong> to both original vectors.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> A normal vector\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "The eccentricity of a conic section was found to be 1. What type of conic section is it?",
+      "type": "OBJ",
+      "options": [
+        "Circle",
+        "Parabola",
+        "Ellipse",
+        "Hyperbola"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Parabola"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Eccentricity Rules</h4>\n  \n  <ul style='padding-left: 20px;'>\n    <li>\\( e = 0 \\): Circle</li>\n    <li>\\( 0 < e < 1 \\): Ellipse</li>\n    <li>\\( e = 1 \\): <strong>Parabola</strong></li>\n    <li>\\( e > 1 \\): Hyperbola</li>\n  </ul>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Parabola\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "A set of all points P such that the difference between the distances from P to the foci, \\( F_1 \\) and \\( F_2 \\) are a constant, may be defined as (a)",
+      "type": "OBJ",
+      "options": [
+        "Hyperbola",
+        "Circle",
+        "Ellipse",
+        "Parabola"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Hyperbola"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definitions of Conics</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Hyperbola:</strong> The set of points where the <strong>difference</strong> of distances to two foci is constant.<br><br>\n    <strong style='color: var(--strongColor);'>Ellipse:</strong> The set of points where the <strong>sum</strong> of distances to two foci is constant.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Hyperbola\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "A conic section is defined as \\( \\frac{y^2}{25} - \\frac{x^2}{144} = 1 \\). Determine the focus.",
+      "type": "OBJ",
+      "options": [
+        "13",
+        "13, 0",
+        "0, 13",
+        "13, 13"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0, 13"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Foci of Hyperbola</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Orientation</strong><br>\n    The \\( y^2 \\) term is positive. This is a vertical hyperbola. The foci will be on the y-axis: \\( (0, \\pm c) \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find c</strong><br>\n    Formula: \\( c^2 = a^2 + b^2 \\)<br>\n    \\( c^2 = 25 + 144 = 169 \\)<br>\n    \\( c = 13 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Coordinates</strong><br>\n    Foci are at \\( (0, 13) \\) and \\( (0, -13) \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 0, 13\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "If \\( \\frac{(x+3)^2}{16} - \\frac{(y-2)^2}{9} = 1 \\) defines a conic section, which of these is a focus of the conic section?",
+      "type": "OBJ",
+      "options": [
+        "5, 0",
+        "0, 5",
+        "2, 2",
+        "2, -2"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2, 2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Shifted Hyperbola Foci</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Center and c</strong><br>\n    Center \\( (h, k) = (-3, 2) \\).<br>\n    \\( c^2 = a^2 + b^2 = 16 + 9 = 25 \\implies c = 5 \\).<br>\n    X-term is positive, so it opens horizontally.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Foci</strong><br>\n    Foci are at \\( (h \\pm c, k) \\).<br>\n    \\( (-3 + 5, 2) = (2, 2) \\)<br>\n    \\( (-3 - 5, 2) = (-8, 2) \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 2, 2\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "A circle is defined as \\( x^2 + y^2 + 6x - 8y + 24 = 0 \\). The center of the circle is _____",
+      "type": "OBJ",
+      "options": [
+        "0, 0",
+        "3, 4",
+        "-3, 4",
+        "-3, -4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-3, 4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Center of a Circle</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Compare to General Equation</strong><br>\n    \\( x^2 + y^2 + 2gx + 2fy + c = 0 \\)<br>\n    Given: \\( 2g = 6 \\implies g = 3 \\)<br>\n    Given: \\( 2f = -8 \\implies f = -4 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Center Formula</strong><br>\n    Center = \\( (-g, -f) \\)<br>\n    Center = \\( (-3, -(-4)) = (-3, 4) \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> -3, 4\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "Using the circle equation from Question 15, the radius of the circle is _____",
+      "type": "OBJ",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Radius of a Circle</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    \\( r = \\sqrt{g^2 + f^2 - c} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute Values</strong><br>\n    From Q15: \\( g=3, f=-4, c=24 \\)<br>\n    \\( r = \\sqrt{3^2 + (-4)^2 - 24} \\)<br>\n    \\( r = \\sqrt{9 + 16 - 24} = \\sqrt{1} = 1 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 1\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": [
+      "Conic Sections"
+    ],
+    "Question": {
+      "content": "A parabola is defined as \\( y - \\frac{23}{4} = -\\frac{(x-1)^2}{3} \\). The directrix of the parabola is _____",
+      "type": "OBJ",
+      "options": [
+        "6.5",
+        "7",
+        "7.5",
+        "8"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "6.5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Parabola Directrix</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Rewrite in Standard Form</strong><br>\n    Standard form: \\( (x-h)^2 = 4p(y-k) \\)<br>\n    Multiply by -3: \\( -3(y - 5.75) = (x-1)^2 \\)<br>\n    \\( 4p = -3 \\implies p = -3/4 = -0.75 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Directrix</strong><br>\n    Vertex y-coordinate (k) is 5.75 (since 23/4 = 5.75).<br>\n    Directrix line: \\( y = k - p \\)<br>\n    \\( y = 5.75 - (-0.75) = 5.75 + 0.75 = 6.5 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 6.5\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": [
+      "Conic Sections",
+      "Parabola"
+
+ 
+    ],
+    "Question": {
+      "content": "Using the parabola defined in the previous question \\( y - \\frac{23}{4} = -\\frac{(x-1)^2}{3} \\), the center (vertex) of the parabola is _____",
+      "type": "OBJ",
+      "options": [
+        "5, 1",
+        "-1, 5",
+        "1, 5",
+        "5, 1"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1, 5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Vertex of a Parabola</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Standard Vertex Form</strong><br>\n    The equation is given as \\( y - k = a(x-h)^2 \\).<br>\n    The vertex is the point \\( (h, k) \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify h and k</strong><br>\n    From \\( y - \\frac{23}{4} = -\\frac{1}{3}(x-1)^2 \\):<br>\n    \\( h = 1 \\)<br>\n    \\( k = \\frac{23}{4} = 5.75 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Select Best Option</strong><br>\n    The exact vertex is \\( (1, 5.75) \\).<br>\n    Looking at the options, \\( (1, 5) \\) is the closest approximation provided in the question paper.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 1, 5\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": [
+      "Conic Sections",
+      "Circle"
+    ],
+    "Question": {
+      "content": "A parametric equation of a circle is given as \\( X = 2 + 4 \\cos \\theta \\), \\( Y = -5 + 4 \\sin \\theta \\). The center of the circle is at _____",
+      "type": "OBJ",
+      "options": [
+        "(4, 4)",
+        "(-5, 2)",
+        "(2, -5)",
+        "(2, 4)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(2, -5)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Parametric Circle Equations</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: The General Form</strong><br>\n    Parametric equations for a circle are written as:<br>\n    \\( x = h + r \\cos \\theta \\)<br>\n    \\( y = k + r \\sin \\theta \\)<br>\n    Where \\( (h, k) \\) is the center.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Compare</strong><br>\n    Given: \\( X = 2 + 4 \\cos \\theta \\) and \\( Y = -5 + 4 \\sin \\theta \\).<br>\n    \\( h = 2 \\)<br>\n    \\( k = -5 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> (2, -5)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": [
+      "Conic Sections",
+      "Circle"
+    ],
+    "Question": {
+      "content": "Using the parametric equation from Question 19, the radius of the circle is _____",
+      "type": "OBJ",
+      "options": [
+        "2",
+        "5",
+        "4",
+        "\\( \\cos \\theta \\sin \\theta \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Radius from Parametric Form</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify the Coefficient</strong><br>\n    In the form \\( x = h + r \\cos \\theta \\), the value multiplying the cosine or sine term is the radius \\( r \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Read Value</strong><br>\n    From \\( X = 2 + 4 \\cos \\theta \\), the multiplier is 4.<br>\n    Therefore, \\( r = 4 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 4\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Matrices and Determinants"
+    ],
+    "Question": {
+      "content": "The matrix obtained by writing the rows as columns is _____",
+      "type": "OBJ",
+      "options": [
+        "Row matrix",
+        "Matrix Algebra",
+        "Transpose Matrix",
+        "Inverse Matrix"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Transpose Matrix"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Matrix Definitions</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Concept:</strong><br>\n    The operation of \"flipping\" a matrix over its diagonal, which swaps rows with columns, creates the <strong>Transpose</strong> of that matrix (denoted as \\( A^T \\)).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Transpose Matrix\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Matrices and Determinants"
+    ],
+    "Question": {
+      "content": "The number of independent rows or maximum number of independent columns is known as _____",
+      "type": "OBJ",
+      "options": [
+        "Basis",
+        "Rank",
+        "Minors",
+        "Array"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rank"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Matrix Rank</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Definition:</strong><br>\n    The <strong>Rank</strong> of a matrix is defined as the maximum number of linearly independent row vectors (or column vectors) in the matrix.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Rank\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Linear Algebra",
+      "Eigenvalues"
+    ],
+    "Question": {
+      "content": "A special set of vectors associated with the square Matrix A is known as _____",
+      "type": "OBJ",
+      "options": [
+        "Eigen Vectors",
+        "Eigen Values",
+        "Diagonal Vectors",
+        "Unit Vectors"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Eigen Vectors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Eigenvectors</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    An <strong>Eigenvector</strong> is a non-zero vector that changes by only a scalar factor when that linear transformation is applied to it. It gives the \"directions\" of the matrix transformation.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Eigen Vectors\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "Linear Algebra",
+      "Eigenvalues"
+    ],
+    "Question": {
+      "content": "A special set of scalars associated with the square Matrix A is known as _____",
+      "type": "OBJ",
+      "options": [
+        "Unit Matrix",
+        "Eigen Values",
+        "Matrix vectors",
+        "scalar Vectors"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Eigen Values"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Eigenvalues</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    The scalars (numbers) that scale the eigenvectors are called <strong>Eigenvalues</strong> (often denoted by \\( \\lambda \\)). They represent the magnitude of stretch or shrink in the direction of the eigenvector.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Eigen Values\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": [
+      "Matrices and Determinants"
+    ],
+    "Question": {
+      "content": "State the formula for solving inverse of Matrix",
+      "type": "OBJ",
+      "options": [
+        "\\( A^{-1} = \\frac{Adj A}{A} \\)",
+        "\\( A^{-1} = \\frac{Adj A}{|A|} \\)",
+        "\\( A^{-1} = \\frac{A}{Adj A |A|} \\)",
+        "\\( A^{-1} = \\frac{Adj |A|}{|A|} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( A^{-1} = \\frac{Adj A}{|A|} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Inverse Matrix Formula</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    To find the inverse of a matrix \\( A \\), you multiply the <strong>Adjugate</strong> (or Adjoint) matrix by the reciprocal of the <strong>Determinant</strong>.\n  </div>\n  \n  <div style='background: rgba(0,0,0,0.05); padding: 10px; border-radius: 5px; margin: 8px 0; text-align: center;'>\n    \\( A^{-1} = \\frac{1}{|A|} \\text{adj}(A) \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\frac{Adj A}{|A|} \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": [
+      "Matrices and Determinants"
+    ],
+    "Question": {
+      "content": "The Rank of the matrix \\( A = \\begin{pmatrix} 3 & 1 & 4 \\\\ 4 & 3 & 1 \\\\ 6 & 2 & 8 \\end{pmatrix} \\) is",
+      "type": "OBJ",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Rank</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Inspect Rows for Dependence</strong><br>\n    Row 1: \\( (3, 1, 4) \\)<br>\n    Row 2: \\( (4, 3, 1) \\)<br>\n    Row 3: \\( (6, 2, 8) \\)<br>\n    Notice that Row 3 is exactly \\( 2 \\times \\) Row 1. \\( (2\\times3, 2\\times1, 2\\times4) = (6, 2, 8) \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Count Independent Rows</strong><br>\n    Since Row 3 is a copy of Row 1, it adds no new information. Row 1 and Row 2 are not multiples of each other. Therefore, there are only <strong>2</strong> independent rows.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 2\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": [
+      "Matrices and Determinants"
+    ],
+    "Question": {
+      "content": "Find the Determinant of matrix \\( B = \\begin{pmatrix} 1 & 0 & 1 \\\\ -2 & 2 & 1 \\\\ 4 & 2 & 8 \\end{pmatrix} \\)",
+      "type": "OBJ",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Determinant of 3x3 Matrix</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Expansion along Top Row</strong><br>\n    \\( |B| = 1\\begin{vmatrix} 2 & 1 \\\\ 2 & 8 \\end{vmatrix} - 0\\begin{vmatrix} -2 & 1 \\\\ 4 & 8 \\end{vmatrix} + 1\\begin{vmatrix} -2 & 2 \\\\ 4 & 2 \\end{vmatrix} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Minors</strong><br>\n    First term: \\( 1( (2)(8) - (1)(2) ) = 1(16 - 2) = 14 \\)<br>\n    Second term: 0<br>\n    Third term: \\( 1( (-2)(2) - (2)(4) ) = 1(-4 - 8) = -12 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Sum</strong><br>\n    \\( |B| = 14 + 0 - 12 = 2 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 2\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": [
+      "Linear Algebra",
+      "Eigenvalues"
+    ],
+    "Question": {
+      "content": "Find the Eigen values of matrix \\( A = \\begin{pmatrix} 4 & -1 \\\\ 2 & 1 \\end{pmatrix} \\)",
+      "type": "OBJ",
+      "options": [
+        "\\( \\lambda = 2, \\lambda = 3 \\)",
+        "\\( \\lambda = 2, \\lambda = 2 \\)",
+        "\\( \\lambda = 3, \\lambda = 3 \\)",
+        "\\( \\lambda = 2, \\lambda = 4 \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\lambda = 2, \\lambda = 3 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Eigenvalues</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Characteristic Equation</strong><br>\n    Solve \\( |A - \\lambda I| = 0 \\).<br>\n    \\( \\begin{vmatrix} 4-\\lambda & -1 \\\\ 2 & 1-\\lambda \\end{vmatrix} = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Expand Determinant</strong><br>\n    \\( (4-\\lambda)(1-\\lambda) - (2)(-1) = 0 \\)<br>\n    \\( (4 - 4\\lambda - \\lambda + \\lambda^2) + 2 = 0 \\)<br>\n    \\( \\lambda^2 - 5\\lambda + 6 = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve Quadratic</strong><br>\n    Factor: \\( (\\lambda - 2)(\\lambda - 3) = 0 \\)<br>\n    Roots: \\( \\lambda = 2, \\lambda = 3 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\lambda = 2, \\lambda = 3 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Matrices and Determinants"
+    ],
+    "Question": {
+      "content": "Find the matrix \\( (A^T)^T \\) in question 28 above",
+      "type": "OBJ",
+      "options": [
+        "\\( A = \\begin{pmatrix} 4 & -1 \\\\ 2 & 1 \\end{pmatrix} \\)",
+        "\\( A = \\begin{pmatrix} 2 & -1 \\\\ 2 & 1 \\end{pmatrix} \\)",
+        "\\( A = \\begin{pmatrix} 4 & 1 \\\\ 2 & 1 \\end{pmatrix} \\)",
+        "\\( A = \\begin{pmatrix} 4 & -2 \\\\ 2 & 1 \\end{pmatrix} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( A = \\begin{pmatrix} 4 & -1 \\\\ 2 & 1 \\end{pmatrix} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Double Transpose Property</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Concept:</strong><br>\n    Taking the transpose of a matrix twice returns the matrix to its original state.<br>\n    \\( (A^T)^T = A \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Result:</strong><br>\n    Since \\( A = \\begin{pmatrix} 4 & -1 \\\\ 2 & 1 \\end{pmatrix} \\), the answer is just Matrix A itself.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> \\( \\begin{pmatrix} 4 & -1 \\\\ 2 & 1 \\end{pmatrix} \\)\n  </div>\n</div>"
+    }
+  }
+]
