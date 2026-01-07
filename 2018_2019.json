@@ -1,0 +1,851 @@
+[
+  {
+    "type": "pageInfo",
+    "kind": "onjective",
+    "course_title": "Engineering Mathematics II",
+    "code": "ENG 202.1",
+    "session": "2018/2019",
+    "topics": ["Coordinate Geometry", "Circles", "Conic Sections", "Parabolas", "Ellipse", "Hyperbola", "Matrices", "Cofactors", "Types of Matrices", "Matrix Multiplication", "Transpose", "Determinants", "Calculus", "Differentiation", "Eigenvalues", "Eigenvectors", "Rank", "Bilinear Forms", "Linear Algebra", "Vector Spaces", "Matrix Spaces", "Norms", "Polynomials", "Vectors", "Euclidean Norm", "Maximum Norm", "Dot Product", "Orthogonality", "Inner Product", "Area & Circumference"],
+    "time": "30mins"
+  },
+  {
+    "type": "Instruction",
+    "content": "Answer all questions in Section A and only one in Section B"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": [
+      "Coordinate Geometry",
+      "Circles"
+    ],
+    "Question": {
+      "content": "Radius of the circle \\( x^2 + y^2 + 4x + 6y = 12 \\) is:",
+      "type": "OBJ",
+      "options": [
+        "8",
+        "\\( \\sqrt{8} \\)",
+        "\\( \\sqrt{12} \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of these"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Radius of a Circle</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify General Form</strong><br>\n    The general equation of a circle is \\( x^2 + y^2 + 2gx + 2fy + c = 0 \\).<br>\n    First, let's rearrange the given equation to match this form by moving the 12 to the left side:<br>\n    \\( x^2 + y^2 + 4x + 6y - 12 = 0 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify Constants (g, f, c)</strong><br>\n    Compare coefficients with the general form:\n    <ul>\n      <li>\\( 2g = 4 \\implies g = 2 \\)</li>\n      <li>\\( 2f = 6 \\implies f = 3 \\)</li>\n      <li>\\( c = -12 \\)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Calculate Radius</strong><br>\n    The formula for the radius is \\( r = \\sqrt{g^2 + f^2 - c} \\).<br>\n    Substitute the values:<br>\n    \\( r = \\sqrt{(2)^2 + (3)^2 - (-12)} \\)<br>\n    \\( r = \\sqrt{4 + 9 + 12} \\)<br>\n    \\( r = \\sqrt{25} = 5 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    The calculated radius is <strong>5</strong>. Since 5 is not listed in options (a), (b), or (c), the correct choice is <strong>(d) None of these</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": [
+      "Coordinate Geometry",
+      "Circles"
+    ],
+    "Question": {
+      "content": "The centre and radius of the circle \\( 3x^2 + 3y^2 - 2x - 6y - 2 = 0 \\) is:",
+      "type": "OBJ",
+      "options": [
+        "Centre = (-1,1), r = \\( \\sqrt{4/3} \\)",
+        "Centre = (-1/3, 1), r = 4/3",
+        "Centre = (-1/3, 1), r = \\( \\sqrt{4/3} \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of these"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Centre and Radius Calculation</h4>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Normalize the Equation</strong><br>\n    To use the standard formulas, the coefficients of \\( x^2 \\) and \\( y^2 \\) must be 1. Divide the entire equation by 3:<br>\n    \\( x^2 + y^2 - \\frac{2}{3}x - 2y - \\frac{2}{3} = 0 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find the Centre</strong><br>\n    The centre \\( C(h, k) \\) is given by \\( (-g, -f) \\).<br>\n    <ul>\n      <li>\\( 2g = -\\frac{2}{3} \\implies g = -\\frac{1}{3} \\). So, \\( h = -g = \\frac{1}{3} \\).</li>\n      <li>\\( 2f = -2 \\implies f = -1 \\). So, \\( k = -f = 1 \\).</li>\n    </ul>\n    <strong>Centre: \\( (\\frac{1}{3}, 1) \\)</strong>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find the Radius</strong><br>\n    Formula: \\( r = \\sqrt{g^2 + f^2 - c} \\)<br>\n    Substitute \\( g = -1/3, f = -1, c = -2/3 \\):<br>\n    \\( r = \\sqrt{(-\\frac{1}{3})^2 + (-1)^2 - (-\\frac{2}{3})} \\)<br>\n    \\( r = \\sqrt{\\frac{1}{9} + 1 + \\frac{2}{3}} \\)<br>\n    Make common denominator (9): \\( r = \\sqrt{\\frac{1}{9} + \\frac{9}{9} + \\frac{6}{9}} = \\sqrt{\\frac{16}{9}} \\)<br>\n    \\( r = \\frac{4}{3} \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    The correct centre is \\( (\\frac{1}{3}, 1) \\) and radius is \\( \\frac{4}{3} \\).<br>\n    Option (b) has the correct radius but the wrong x-coordinate sign for the centre. Therefore, strictly speaking, the answer is <strong>(d) None of these</strong>. <br>\n    <em>(Note: If the equation had \\( +2x \\) instead of \\( -2x \\), option (b) would be correct).</em>\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": [
+      "Coordinate Geometry",
+      "Circles"
+    ],
+    "Question": {
+      "content": "Find the equation of circle having (-2, 5) and (3, 4) as the end points of its diameter.",
+      "type": "OBJ",
+      "options": [
+        "\\( x^2 + y^2 - 2x - 9y = 14 \\)",
+        "\\( x^2 + y^2 - x - 9y = -14 \\)",
+        "\\( x^2 + y^2 - x - 4y = 1 \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( x^2 + y^2 - x - 9y = -14 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equation of Circle from Diameter</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Diameter Formula</strong><br>\n    If \\( (x_1, y_1) \\) and \\( (x_2, y_2) \\) are endpoints of a diameter, the equation is:<br>\n    \\( (x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitute Points</strong><br>\n    Given points: \\( (-2, 5) \\) and \\( (3, 4) \\).<br>\n    Substitute into the formula:<br>\n    \\( (x - (-2))(x - 3) + (y - 5)(y - 4) = 0 \\)<br>\n    \\( (x + 2)(x - 3) + (y - 5)(y - 4) = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Expand and Simplify</strong><br>\n    Expand the x terms: \\( x^2 - 3x + 2x - 6 = x^2 - x - 6 \\)<br>\n    Expand the y terms: \\( y^2 - 4y - 5y + 20 = y^2 - 9y + 20 \\)<br>\n    Combine them:<br>\n    \\( x^2 - x - 6 + y^2 - 9y + 20 = 0 \\)<br>\n    \\( x^2 + y^2 - x - 9y + 14 = 0 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    Rearranging the constant to the right side:<br>\n    \\( x^2 + y^2 - x - 9y = -14 \\)<br>\n    This matches <strong>option (b)</strong>.\n  </div>\n</div>"
+    }
+  },
+  
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": [
+      "Coordinate Geometry",
+      "Conic Sections",
+      "Parabolas"
+    ],
+    "Question": {
+      "content": "Which of the graph is represented by the equation \\( (y - 1)^2 = -4(x - 1) \\)? Provide a detailed solution and a table of values for x from -5 to 5.",
+      "type": "OBJ",
+      "options": [
+        "<img class = 'imgAns thumbnail' src ='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/ENG_202.1/2018_2019/n4oa.jpg'  alt ='option a, opening points upward'/>",
+        "<img class = 'imgAns thumbnail' src ='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/ENG_202.1/2018_2019/n4ob.jpg'  alt ='option b, opening points left'/>",
+        "<img class = 'imgAns thumbnail' src ='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/ENG_202.1/2018_2019/n4oc.jpg'  alt ='option c, opening points right'/>",
+        "<img class = 'imgAns thumbnail' src ='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/ENG_202.1/2018_2019/n4od.jpg'  alt ='option d, opening points downward'/>"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "<img class = 'imgAns thumbnail' src ='https://ppqmg.s3.eu-north-1.amazonaws.com/pastquestionsimg/ENG_202.1/2018_2019/n4ob.jpg'  alt ='option b, opening points left'/>"
+      
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Graph Analysis: Left-Opening Parabola</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Analyze the Equation Structure</strong><br>\n    The equation \\( (y - 1)^2 = -4(x - 1) \\) fits the standard form for a horizontal parabola: \\( (y - k)^2 = 4p(x - h) \\).\n    <ul>\n      <li><strong>Vertex (h, k):</strong> The values subtracted from x and y give the vertex <strong>(1, 1)</strong>.</li>\n      <li><strong>Direction:</strong> The term \\( -4 \\) is negative. For an x-variable, this means the parabola opens towards the negative side (<strong>Left</strong>).</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve for y</strong><br>\n    To make the table, we isolate \\( y \\):<br>\n    \\( (y - 1)^2 = -4(x - 1) \\)<br>\n    \\( y - 1 = \\pm \\sqrt{-4(x - 1)} \\)<br>\n    \\( y = 1 \\pm \\sqrt{4(1 - x)} \\)<br>\n    \\( y = 1 \\pm 2\\sqrt{1 - x} \\)<br>\n    <em>Note: We can only calculate values where \\( 1 - x \\ge 0 \\), meaning \\( x \\le 1 \\).</em>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Table of Values (Range -5 to 5)</strong><br>\n    We calculate points for integer values of x. Notice that \\( x=1, x=0, \\) and \\( x=-3 \\) give perfect integers for y, making them the easiest points to plot.\n    \n    <table style='width:100%; border-collapse: collapse; margin-top: 10px; font-size: 0.9em;'>\n      <tr style='background: var(--strongColor); color: #fff;'>\n        <th style='padding: 8px; border: 1px solid var(--whiteTransBorder);'>x</th>\n        <th style='padding: 8px; border: 1px solid var(--whiteTransBorder);'>Substitution</th>\n        <th style='padding: 8px; border: 1px solid var(--whiteTransBorder);'>y Values</th>\n        <th style='padding: 8px; border: 1px solid var(--whiteTransBorder);'>Point Type</th>\n      </tr>\n      <tr>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>5 to 2</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Root of negative</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Undefined</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>No Graph</td>\n      </tr>\n      <tr style='background: var(--greenBgL);'>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>1</strong></td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{0} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>1</strong></td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>Vertex</strong></td>\n      </tr>\n      <tr style='background: rgba(0,0,0,0.05);'>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>0</strong></td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{1} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>3</strong> and <strong>-1</strong></td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Intercepts</td>\n      </tr>\n      <tr>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>-1</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{2} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>3.8 and -1.8</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Decimal</td>\n      </tr>\n      <tr style='background: rgba(0,0,0,0.05);'>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>-2</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{3} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>4.5 and -2.5</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Decimal</td>\n      </tr>\n      <tr style='background: var(--greenBgL);'>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>-3</strong></td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{4} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>5</strong> and <strong>-3</strong></td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'><strong>Easy Integer</strong></td>\n      </tr>\n      <tr style='background: rgba(0,0,0,0.05);'>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>-4</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{5} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>5.5 and -3.5</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Decimal</td>\n      </tr>\n      <tr>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>-5</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>\\( 1 \\pm 2\\sqrt{6} \\)</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>5.9 and -3.9</td>\n        <td style='padding: 8px; border: 1px solid var(--black); text-align: center;'>Decimal</td>\n      </tr>\n    </table>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ How to identify the graph:</strong><br>\n    Look for the curve that starts at <strong>(1, 1)</strong> and goes left through the y-axis at <strong>3</strong> and <strong>-1</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": [
+      "Coordinate Geometry",
+      "Circles"
+    ],
+    "Question": {
+      "content": "Find the equation of the circle passing through the origin and whose intercepts on the axes are 3 and 4.",
+      "type": "OBJ",
+      "options": [
+        "\\( x^2 + y^2 - 9x + 4y = 8 \\)",
+        "\\( x^2 + y^2 - 9x - 4y = 3 \\)",
+        "\\( x^2 + y^2 + 6x - 4y = 3 \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "None of these"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Circle with Intercepts</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Key Points</strong><br>\n    The circle passes through the origin (0,0).<br>\n    It has an x-intercept of 3, meaning it passes through (3, 0).<br>\n    It has a y-intercept of 4, meaning it passes through (0, 4).<br>\n   \n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use the General Form</strong><br>\n    The general equation is \\( x^2 + y^2 + 2gx + 2fy + c = 0 \\).<br>\n    1. Since it passes through (0,0), substituting x=0, y=0 gives \\( c = 0 \\).<br>\n    2. Since it passes through (3,0): \\( 3^2 + 0 + 2g(3) + 0 + 0 = 0 \\implies 9 + 6g = 0 \\implies g = -3/2 \\).<br>\n    3. Since it passes through (0,4): \\( 0 + 4^2 + 0 + 2f(4) + 0 = 0 \\implies 16 + 8f = 0 \\implies f = -2 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Construct the Equation</strong><br>\n    Substitute g, f, and c back into the general form:<br>\n    \\( x^2 + y^2 + 2(-3/2)x + 2(-2)y + 0 = 0 \\)<br>\n    \\( x^2 + y^2 - 3x - 4y = 0 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    The correct equation is \\( x^2 + y^2 - 3x - 4y = 0 \\).<br>\n    None of the options (a), (b), or (c) match this result. Therefore, the answer is <strong>(d) None of these</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": [
+      "Coordinate Geometry",
+      "Parabolas"
+    ],
+    "Question": {
+      "content": "What is the vertex of the parabola \\( y = 2x^2 - 36x + 165 \\)?",
+      "type": "OBJ",
+      "options": [
+        "(6, 2)",
+        "(9, 3)",
+        "(6, 3)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(9, 3)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding the Vertex of a Parabola</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Method 1: Using the Vertex Formula</strong><br>\n    For a parabola \\( y = ax^2 + bx + c \\), the x-coordinate of the vertex is \\( h = -b / 2a \\).<br>\n    Here, \\( a = 2 \\), \\( b = -36 \\), \\( c = 165 \\).<br>\n    \\( h = -(-36) / (2 \\cdot 2) = 36 / 4 = 9 \\).<br>\n    To find the y-coordinate (k), substitute x = 9 back into the equation:<br>\n    \\( k = 2(9)^2 - 36(9) + 165 \\)<br>\n    \\( k = 2(81) - 324 + 165 \\)<br>\n    \\( k = 162 - 324 + 165 \\)<br>\n    \\( k = -162 + 165 = 3 \\).<br>\n    Vertex = (9, 3)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Method 2: Completing the Square</strong><br>\n    \\( y = 2(x^2 - 18x) + 165 \\)<br>\n    Add and subtract \\( (18/2)^2 = 81 \\) inside the bracket:<br>\n    \\( y = 2(x^2 - 18x + 81 - 81) + 165 \\)<br>\n    \\( y = 2((x-9)^2 - 81) + 165 \\)<br>\n    \\( y = 2(x-9)^2 - 162 + 165 \\)<br>\n    \\( y = 2(x-9)^2 + 3 \\)<br>\n    Comparing to vertex form \\( y = a(x-h)^2 + k \\), we get \\( h=9, k=3 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> (9, 3)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": [
+      "Coordinate Geometry",
+      "Parabolas"
+    ],
+    "Question": {
+      "content": "Find the equation of the parabola with vertex (-1, 4) and passing through the point (-3, 12).",
+      "type": "OBJ",
+      "options": [
+        "\\( y = \\frac{1}{2}(x+1)^2 + 4 \\)",
+        "\\( y = 2(x+1)^2 + 4 \\)",
+        "\\( y = 2(x - 1)^2 + 4 \\)",
+        "none of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( y = 2(x+1)^2 + 4 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Parabola Equation from Vertex</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Use Vertex Form</strong><br>\n    The equation of a vertical parabola is \\( y = a(x - h)^2 + k \\).<br>\n    Given vertex \\( (h, k) = (-1, 4) \\).<br>\n    Substitute these values:<br>\n    \\( y = a(x - (-1))^2 + 4 \\)<br>\n    \\( y = a(x + 1)^2 + 4 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find 'a' using the Point</strong><br>\n    The parabola passes through \\( (-3, 12) \\). Substitute x = -3 and y = 12:<br>\n    \\( 12 = a(-3 + 1)^2 + 4 \\)<br>\n    \\( 12 = a(-2)^2 + 4 \\)<br>\n    \\( 12 = 4a + 4 \\)<br>\n    \\( 8 = 4a \\implies a = 2 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Write Final Equation</strong><br>\n    Substitute \\( a = 2 \\) back into the equation from Step 1:<br>\n    \\( y = 2(x + 1)^2 + 4 \\)<br>\n    Expanding it (optional): \\( y = 2(x^2 + 2x + 1) + 4 = 2x^2 + 4x + 6 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong>\n    \\( y = 2(x+1)^2 + 4 \\)\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Coordinate Geometry", "Conic Sections", "Ellipse"],
+    "Question": {
+      "content": "Find the equation of the ellipse with centre at (2, 3), one vertex at (9, 3) and one co-vertex at (2, 1)",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{(x-2)^2}{25} + \\frac{(y-3)^2}{9} = 1 \\)",
+        "\\( \\frac{(x-2)^2}{49} + \\frac{(y-3)^2}{4} = 1 \\)",
+        "\\( \\frac{(x-2)^2}{25} + \\frac{(y-3)^2}{4} = 1 \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{(x-2)^2}{49} + \\frac{(y-3)^2}{4} = 1 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equation of an Ellipse</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Orientation</strong><br>\n    The Center is \\( (h, k) = (2, 3) \\).<br>\n    The Vertex is \\( (9, 3) \\). Notice the y-coordinate (3) is the same as the center. This means the major axis is horizontal (along the x-axis).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find 'a' (Semi-major axis)</strong><br>\n    The distance between the center \\( (2,3) \\) and vertex \\( (9,3) \\) is \\( a \\).<br>\n    \\( a = 9 - 2 = 7 \\). So, \\( a^2 = 49 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find 'b' (Semi-minor axis)</strong><br>\n    The Co-vertex is \\( (2, 1) \\). The distance from the center \\( (2,3) \\) to the co-vertex \\( (2,1) \\) is \\( b \\).<br>\n    \\( b = 3 - 1 = 2 \\). So, \\( b^2 = 4 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 4: Build Equation</strong><br>\n    Standard form: \\( \\frac{(x-h)^2}{a^2} + \\frac{(y-k)^2}{b^2} = 1 \\)<br>\n    Substitute values: \\( \\frac{(x-2)^2}{49} + \\frac{(y-3)^2}{4} = 1 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Matches option (b).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Coordinate Geometry", "Conic Sections", "Hyperbola"],
+    "Question": {
+      "content": "Find the equation of the hyperbola with focus at (0,6) and vertices at (0, -2) and (0, 2).",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{x^2}{32} - \\frac{y^2}{4} = 1 \\)",
+        "\\( \\frac{x^2}{32} + \\frac{y^2}{4} = 1 \\)",
+        "\\( -\\frac{x^2}{32} + \\frac{y^2}{4} = 1 \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( -\\frac{x^2}{32} + \\frac{y^2}{4} = 1 \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Equation of a Hyperbola</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify Orientation and Center</strong><br>\n    Vertices are at (0, -2) and (0, 2). Since x is 0 for both, this is a vertical hyperbola (opens up and down).<br>\n    The Center is the midpoint of vertices: (0, 0).<br>\n    The distance from center to vertex is \\( a = 2 \\). So \\( a^2 = 4 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find 'b' using Focus</strong><br>\n    Focus is at (0, 6). Distance from center to focus is \\( c = 6 \\).<br>\n    Formula relating a, b, c for hyperbola: \\( c^2 = a^2 + b^2 \\).<br>\n    \\( 36 = 4 + b^2 \\implies b^2 = 32 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Build Equation</strong><br>\n    For vertical hyperbola: \\( \\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1 \\)<br>\n    Substitute values: \\( \\frac{y^2}{4} - \\frac{x^2}{32} = 1 \\)<br>\n    This can be rewritten as \\( -\\frac{x^2}{32} + \\frac{y^2}{4} = 1 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Matches option (c).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Coordinate Geometry", "Hyperbola"],
+    "Question": {
+      "content": "What is the equation of the asymptotes of the hyperbola \\( \\frac{x^2}{16} - \\frac{y^2}{64} = 1 \\)?",
+      "type": "OBJ",
+      "options": [
+        "\\( y = \\pm 2x \\)",
+        "\\( y = \\pm \\frac{1}{2}x \\)",
+        "\\( y = \\pm 3x \\)",
+        "None of these"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( y = \\pm 2x \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Asymptotes</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Identify a and b</strong><br>\n    Equation: \\( \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1 \\).<br>\n    \\( a^2 = 16 \\implies a = 4 \\).<br>\n    \\( b^2 = 64 \\implies b = 8 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Use Asymptote Formula</strong><br>\n    For a horizontal hyperbola, asymptotes are \\( y = \\pm \\frac{b}{a}x \\).<br>\n    \\( y = \\pm \\frac{8}{4}x \\)<br>\n    \\( y = \\pm 2x \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Matches option (a).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Matrices", "Cofactors"],
+    "Question": {
+      "content": "Find the co-factor of minor -2 in the second row of Matrix A = [5 -2 4; -2 1 1; 4 1 0]",
+      "type": "OBJ",
+      "options": [
+        "3",
+        "2",
+        "-4",
+        "4"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "4"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Matrix Cofactor</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Locate the Element</strong><br>\n    The element \"-2\" in the second row is at position Row 2, Column 1 (\\( a_{21} \\)).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find the Minor</strong><br>\n    The minor is the determinant of the matrix left after crossing out Row 2 and Column 1.<br>\n    Matrix: \\( \\begin{bmatrix} 5 & -2 & 4 \\\\ \\mathbf{-2} & 1 & 1 \\\\ 4 & 1 & 0 \\end{bmatrix} \\) \\( \\rightarrow \\) Remaining: \\( \\begin{bmatrix} -2 & 4 \\\\ 1 & 0 \\end{bmatrix} \\)<br>\n    Determinant = \\( (-2)(0) - (4)(1) = 0 - 4 = -4 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Apply Sign Formula</strong><br>\n    Cofactor \\( C_{ij} = (-1)^{i+j} \\times \\text{Minor} \\).<br>\n    \\( C_{21} = (-1)^{2+1} \\times (-4) \\)<br>\n    \\( = (-1)^3 \\times (-4) = (-1) \\times (-4) = 4 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Matches option (d).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Matrices", "Types of Matrices"],
+    "Question": {
+      "content": "Identify the Diagonal Matrix in the options below",
+      "type": "OBJ",
+      "options": [
+        "2 3 0, 0 3 0, 0 4 1",
+        "1 0 0, 0 1 0, 0 0 1",
+        "5 0 0, 0 2 0, 4 0 7",
+        "None"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1 0 0, 0 1 0, 0 0 1"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Diagonal Matrix Definition</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Definition:</strong> A square matrix is diagonal if all its non-diagonal elements are zero. The diagonal elements can be any number.\n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Analysis:</strong><br>\n    (a) Has non-zeros (3, 4, 1) outside diagonal.<br>\n    (b) \\( \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} \\) All off-diagonal elements are 0. This is an Identity matrix, which is a special type of diagonal matrix.<br>\n    (c) Has a 4 in the bottom left corner (off-diagonal).\n  </div>\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (b).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Matrices", "Matrix Multiplication", "Transpose"],
+    "Question": {
+      "content": "Find the transpose of the matrix (A · B) if A = [2 7 6; 3 1 5] and B = [4 0; 3 7; 1 5]",
+      "type": "OBJ",
+      "options": [
+        "[20 35; 79 32]",
+        "[20 35; 30 79]",
+        "[35 20; 79 32]",
+        "[35 79; 20 32]"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "[35 20; 79 32]"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Matrix Multiplication & Transpose</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Multiply A and B</strong><br>\n    \\( A \\cdot B = \\begin{bmatrix} 2 & 7 & 6 \\\\ 3 & 1 & 5 \\end{bmatrix} \\begin{bmatrix} 4 & 0 \\\\ 3 & 7 \\\\ 1 & 5 \\end{bmatrix} \\)<br>\n    Row 1: \\( (2\\times4 + 7\\times3 + 6\\times1) \\), \\( (2\\times0 + 7\\times7 + 6\\times5) \\) \\(\\rightarrow\\) [35, 79]<br>\n    Row 2: \\( (3\\times4 + 1\\times3 + 5\\times1) \\), \\( (3\\times0 + 1\\times7 + 5\\times5) \\) \\(\\rightarrow\\) [20, 32]<br>\n    Result: \\( \\begin{bmatrix} 35 & 79 \\\\ 20 & 32 \\end{bmatrix} \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Find Transpose</strong><br>\n    Swap rows and columns:<br>\n    \\( \\begin{bmatrix} 35 & 20 \\\\ 79 & 32 \\end{bmatrix} \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Matches option (c).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Matrices", "Determinants"],
+    "Question": {
+      "content": "What is the determinant of Matrix B = [2 7 4; 3 1 6; 5 0 8]",
+      "type": "OBJ",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "45"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "38"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding 3x3 Determinant</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Calculation:</strong><br>\n    Use the first row to expand: \\( 2(1\\times8 - 6\\times0) - 7(3\\times8 - 6\\times5) + 4(3\\times0 - 1\\times5) \\)<br>\n    \\( = 2(8) - 7(24 - 30) + 4(-5) \\)<br>\n    \\( = 16 - 7(-6) - 20 \\)<br>\n    \\( = 16 + 42 - 20 \\)<br>\n    \\( = 58 - 20 = 38 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 38 (Option b).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": [
+      "Matrices",
+      "Calculus",
+      "Differentiation"
+    ],
+    "Question": {
+      "content": "Differentiate Matrix \\( A = \\begin{pmatrix} \\log_a x & \\cos x \\\\ x^{-3} & \\frac{1}{2}x^3 \\end{pmatrix} \\)",
+      "type": "OBJ",
+      "options": [
+        "\\( \\frac{d}{dx} A = \\begin{pmatrix} \\frac{1}{x \\ln a} & -\\sin x \\\\ -3x^{-4} & \\frac{3x^2}{2} \\end{pmatrix} \\)",
+        "\\( \\frac{d}{dx} A = \\begin{pmatrix} x \\ln a & \\sin x \\\\ -3x^{-2} & \\frac{2x^2}{3} \\end{pmatrix} \\)",
+        "\\( \\frac{d}{dx} A = \\begin{pmatrix} \\frac{1}{x} \\ln a & -\\sin x \\\\ -5x^{-4} & \\frac{4x^2}{3} \\end{pmatrix} \\)",
+        "\\( \\frac{d}{dx} A = \\begin{pmatrix} \\frac{1}{x} \\ln a & -\\sin x \\\\ -3x^{-4} & \\frac{x^2}{2} \\end{pmatrix} \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\frac{d}{dx} A = \\begin{pmatrix} \\frac{1}{x \\ln a} & -\\sin x \\\\ -3x^{-4} & \\frac{3x^2}{2} \\end{pmatrix} \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Matrix Differentiation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Differentiate Element-by-Element</strong><br>\n    To differentiate a matrix, you simply take the derivative of each component independently with respect to \\( x \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve Each Term</strong><br>\n    <ul>\n      <li><strong>Top-Left:</strong> \\( \\frac{d}{dx}(\\log_a x) \\). The standard derivative is \\( \\frac{1}{x \\ln a} \\).</li>\n      <li><strong>Top-Right:</strong> \\( \\frac{d}{dx}(\\cos x) \\). The standard derivative is \\( -\\sin x \\).</li>\n      <li><strong>Bottom-Left:</strong> \\( \\frac{d}{dx}(x^{-3}) \\). Using power rule \\( nx^{n-1} \\): \\( -3x^{-3-1} = -3x^{-4} \\).</li>\n      <li><strong>Bottom-Right:</strong> \\( \\frac{d}{dx}(\\frac{1}{2}x^3) \\). Keep the constant \\( \\frac{1}{2} \\) and differentiate \\( x^3 \\): <br>\n      \\( \\frac{1}{2} \\cdot (3x^2) = \\frac{3x^2}{2} \\).</li>\n    </ul>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    Combining these results gives the matrix in <strong>Option (a)</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Matrices", "Eigenvalues"],
+    "Question": {
+      "content": "Find the Eigen values associated with matrix A = [8 3; 2 7]",
+      "type": "OBJ",
+      "options": [
+        "1, 1",
+        "-1, -1",
+        "i, 1/2",
+        "1, -1/2"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "5, 10"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Eigenvalues</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Characteristic Equation</strong><br>\n    \\( |A - \\lambda I| = 0 \\)<br>\n    \\( (8-\\lambda)(7-\\lambda) - (3)(2) = 0 \\)<br>\n    \\( 56 - 15\\lambda + \\lambda^2 - 6 = 0 \\)<br>\n    \\( \\lambda^2 - 15\\lambda + 50 = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Solve Quadratic</strong><br>\n    \\( (\\lambda - 5)(\\lambda - 10) = 0 \\)<br>\n    Eigenvalues are \\( \\lambda = 5 \\) and \\( \\lambda = 10 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The correct values are 5 and 10. None of the provided options (a, b, c, d) match this..\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Matrices", "Eigenvectors"],
+    "Question": {
+      "content": "Find the Eigenvector of matrix B = [2 -1; -1 2]",
+      "type": "OBJ",
+      "options": [
+        "[1 , 1  , -1 , -1]",
+        "[1 , 1 , -2 , -1]",
+        "[-1 , -1 , -1 , 1]",
+        "[-2, -2 , 1 , 1]"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Vectors corresponding to eigenvalues 1 and 3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Eigenvectors</h4>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Eigenvalues</strong><br>\n    Solve \\( \\lambda^2 - 4\\lambda + 3 = 0 \\) to get \\( \\lambda = 1, 3 \\).\n  </div>\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Eigenvectors</strong><br>\n    For \\( \\lambda=1 \\): \\( x=y \\), Vector: (1, 1).<br>\n    For \\( \\lambda=3 \\): \\( x=-y \\), Vector: (1, -1).\n  </div>\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (a) corresponds to these vectors (1, 1 and 1, -1).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Matrices", "Rank"],
+    "Question": {
+      "content": "What is the rank of matrix X = [1 2 4 4; 3 4 8 0]",
+      "type": "OBJ",
+      "options": ["0", "4", "3", "2", "1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Matrix Rank</h4>\n  <div style='margin-bottom: 12px;'>\n    The rank of a matrix is the number of linearly independent rows. Since Row 2 is not a scalar multiple of Row 1, both rows are independent. With only 2 rows total, the rank is 2.\n  </div>\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (d).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Matrices", "Eigenvalues"],
+    "Question": {
+      "content": "The Eigen values of matrix B = [1 -1 0; -1 2 -1; 0 -1 1]",
+      "type": "OBJ",
+      "options": ["1 1 3", "0 1 3", "1 -1 2", "0 1 1"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0 1 3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculation</h4>\n  <div style='margin-bottom: 12px;'>\n    Solving the characteristic equation \\( \\det(B - \\lambda I) = 0 \\) yields roots \\( \\lambda = 0, 1, 3 \\).\n  </div>\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (b).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Matrices", "Bilinear Forms"],
+    "Question": {
+      "content": "Find the bilinear form associated with square matrix A = [2 3; 5 4]",
+      "type": "OBJ",
+      "options": [
+        "2ac + 3ad + 5bc - 4bd",
+        "2ac + 3ad + 5bc + 4bd",
+        "2ac + 3ad + 5bc + 4bc",
+        "2ac + 3ac + 5bc - 4bd"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2ac + 3ad + 5bc + 4bd"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Bilinear Form</h4>\n  <div style='margin-bottom: 12px;'>\n    The bilinear form is \\( u^T A v \\). If \\( u=[a, b]^T \\) and \\( v=[c, d]^T \\), then:\n    \\[ \\begin{bmatrix} a & b \\end{bmatrix} \\begin{bmatrix} 2 & 3 \\\\ 5 & 4 \\end{bmatrix} \\begin{bmatrix} c \\\\ d \\end{bmatrix} \\]\n    \\[ = 2ac + 3ad + 5bc + 4bd \\]\n  </div>\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (b).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": [
+      "Linear Algebra",
+      "Vector Spaces"
+    ],
+    "Question": {
+      "content": "One of the following is a type of vector space.",
+      "type": "OBJ",
+      "options": [
+        "k(a1, a2, ... an)",
+        "(a1, a2, ... an)",
+        "Polynomial space function over a field k",
+        "f(x) + g(x) = g(x) + f(x)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Polynomial space function over a field k"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Types of Vector Spaces</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Understanding the Options</strong><br>\n    A <strong>Vector Space</strong> is a collection of objects (vectors) that can be added together and multiplied by scalars.\n    <ul>\n      <li><strong>Option (a) & (b):</strong> These look like notations for specific vectors or tuples, not a definition of a whole \"space\".</li>\n      <li><strong>Option (d):</strong> This represents the <em>Commutative Property</em> of addition (order doesn't matter), which is a rule vectors follow, not a type of space itself.</li>\n      <li><strong>Option (c):</strong> The set of all polynomials (often written as \\( P(F) \\) or \\( K[x] \\)) is a classic example of a vector space. You can add two polynomials to get another polynomial, and multiply them by a scalar.</li>\n    </ul>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (c) describes a valid category of vector space.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": [
+      "Linear Algebra",
+      "Matrix Spaces"
+    ],
+    "Question": {
+      "content": "The theorem of matrix space \\( M^{m \\times n} \\), which of the following theorem is valid.",
+      "type": "OBJ",
+      "options": [
+        "k = the field of scalars",
+        "V = the given vector space",
+        "a field k of scalar",
+        "\\( K_1(A + B) = K_1A + K_1B \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( K_1(A + B) = K_1A + K_1B \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Scalar Distributive Property</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Analyzing the Options</strong><br>\n    The question asks for a valid <strong>theorem</strong> or property valid in Matrix Space.\n    <ul>\n      <li>Options (a), (b), and (c) are simply definitions or variable declarations. They do not state a mathematical truth or rule.</li>\n      <li>Option (d) states that if you add two matrices \\( A \\) and \\( B \\), and then multiply by a scalar \\( K_1 \\), it is the same as multiplying each matrix by the scalar separately and then adding them.</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Conclusion</strong><br>\n    This is known as the <strong>Distributive Property</strong> of scalar multiplication over vector addition. It is a fundamental axiom for any vector space, including matrix spaces.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (d).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": [
+      "Linear Algebra",
+      "Norms"
+    ],
+    "Question": {
+      "content": "The norm of a vector \\( R^n \\) is defined as",
+      "type": "OBJ",
+      "options": [
+        "Square positive root of u·u",
+        "Non negative Square root of u·u",
+        "Positive-negative root of u·u",
+        "Positive Square root of u³"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Non negative Square root of u·u"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definition of Vector Norm</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>The Formula</strong><br>\n    The length (or norm) of a vector \\( \\mathbf{u} \\), denoted \\( ||\\mathbf{u}|| \\), is calculated using the dot product:\n    \\[ ||\\mathbf{u}|| = \\sqrt{\\mathbf{u} \\cdot \\mathbf{u}} \\]\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Why \"Non-negative\"?</strong><br>\n    A length cannot be negative. While the square root of a number like 4 could be +2 or -2, a geometric length is always \\( \\ge 0 \\).<br>\n    Additionally, if the vector is the zero vector, its length is 0. Therefore, \"Non-negative\" is technically more precise than just \"Positive\" (which implies \\( >0 \\)).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (b) is the correct mathematical definition.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": [
+      "Linear Algebra",
+      "Polynomials"
+    ],
+    "Question": {
+      "content": "Which of the following is a polynomial space function over a field K?",
+      "type": "OBJ",
+      "options": [
+        "\\( k(x) = a_0 + a_1x + a_2x^2 + ... + a_nx^n \\)",
+        "\\( A + 0 = 0 + A \\)",
+        "\\( A + A = 2A \\)",
+        "\\( f(x) + [g(x) + h(x)] = [f(x) + g(x)] + h(x) \\)"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( k(x) = a_0 + a_1x + a_2x^2 + ... + a_nx^n \\)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>General Polynomial Form</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Identifying the Function</strong><br>\n    The question asks to identify the <em>function</em> itself.\n    <ul>\n      <li><strong>Option (a):</strong> This is the standard general expression for a polynomial of degree \\( n \\) with coefficients \\( a_0, a_1, ... \\). This defines what a polynomial is.</li>\n      <li><strong>Option (b), (c), (d):</strong> These represent properties (Identity, Arithmetic, Associativity) rather than the definition of the polynomial function itself.</li>\n    </ul>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (a).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Euclidean Norm"
+    ],
+    "Question": {
+      "content": "Determine the Euclidean norm of the vector \\( U^T = [4, -6, 0, 2, -8] \\)",
+      "type": "OBJ",
+      "options": [
+        "10",
+        "120",
+        "-120",
+        "60"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "\\( \\sqrt{120} \\) (approx 10.95)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Euclidean Norm</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Formula</strong><br>\n    The Euclidean norm \\( ||U||_2 \\) is the square root of the sum of the squares of its components: \\( \\sqrt{x_1^2 + x_2^2 + ... + x_n^2} \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Calculation</strong><br>\n    Given \\( U = [4, -6, 0, 2, -8] \\):<br>\n    \\( ||U|| = \\sqrt{4^2 + (-6)^2 + 0^2 + 2^2 + (-8)^2} \\)<br>\n    \\( ||U|| = \\sqrt{16 + 36 + 0 + 4 + 64} \\)<br>\n    \\( ||U|| = \\sqrt{52 + 4 + 64} \\)<br>\n    \\( ||U|| = \\sqrt{120} \\)\n  </div>\n\n  <div style='background: var(--warningBg); color: var(--ash); padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;'>\n    <strong>Note:</strong> \\( \\sqrt{120} \\approx 10.95 \\). None of the provided options (10, 120, -120, 60) match the correct calculated result. The handwritten solution also notes \"No Correct Option\".\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Maximum Norm"
+    ],
+    "Question": {
+      "content": "\\( ||U||_\\infty = Max|U| \\), then for question No. 25, what is the maximum norm.",
+      "type": "OBJ",
+      "options": [
+        "2",
+        "6",
+        "13",
+        "8"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "8"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Maximum Norm (Infinity Norm)</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Definition</strong><br>\n    The maximum norm \\( ||U||_\\infty \\) is simply the largest absolute value among the vector's components.\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Analysis</strong><br>\n    Using the vector from the previous question: \\( U = [4, -6, 0, 2, -8] \\).<br>\n    Find the absolute values:<br>\n    \\( |4| = 4 \\)<br>\n    \\( |-6| = 6 \\)<br>\n    \\( |0| = 0 \\)<br>\n    \\( |2| = 2 \\)<br>\n    \\( |-8| = 8 \\)<br>\n    The maximum value is <strong>8</strong>.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> Option (d).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Dot Product"
+    ],
+    "Question": {
+      "content": "Calculate the DOT Product of the following vectors. \\( U = (2, -4, 6, -8) \\) and \\( V = (6, 7, 1, 2) \\)",
+      "type": "OBJ",
+      "options": [
+        "-4",
+        "1",
+        "-8",
+        "6"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "-26"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Dot Product Calculation</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Multiply Corresponding Components</strong><br>\n    \\( U \\cdot V = (u_1v_1) + (u_2v_2) + (u_3v_3) + (u_4v_4) \\)<br>\n    \\( = (2 \\times 6) + (-4 \\times 7) + (6 \\times 1) + (-8 \\times 2) \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum the Products</strong><br>\n    \\( = 12 + (-28) + 6 + (-16) \\)<br>\n    \\( = 12 - 28 + 6 - 16 \\)<br>\n    \\( = -16 + 6 - 16 \\)<br>\n    \\( = -10 - 16 = -26 \\)\n  </div>\n\n  <div style='background: var(--warningBg); color: var(--ash); padding: 10px; border-radius: 5px; margin: 10px 0; font-size: 0.9em;'>\n    <strong>Note:</strong> The calculated answer is <strong>-26</strong>. None of the options (-4, 1, -8, 6) are correct. The handwritten solution also notes \"No Correct Option\".\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Norms"
+    ],
+    "Question": {
+      "content": "Suppose \\( U = (6, -24, -8) \\), determine the \\( ||U|| \\).",
+      "type": "OBJ",
+      "options": [
+        "26",
+        "24",
+        "13",
+        "15"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "26"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Vector Magnitude</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Square the Components</strong><br>\n    \\( ||U|| = \\sqrt{6^2 + (-24)^2 + (-8)^2} \\)<br>\n    \\( 6^2 = 36 \\)<br>\n    \\( (-24)^2 = 576 \\)<br>\n    \\( (-8)^2 = 64 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Sum and Root</strong><br>\n    Sum: \\( 36 + 576 + 64 = 676 \\)<br>\n    Root: \\( \\sqrt{676} \\)<br>\n    Since \\( 20^2 = 400 \\) and \\( 30^2 = 900 \\), we check numbers ending in 4 or 6. \\( 26 \\times 26 = 676 \\).\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 26 (Option a).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Orthogonality"
+    ],
+    "Question": {
+      "content": "Orthogonality is achieved when the DOT Product of the two vectors is __",
+      "type": "OBJ",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "10"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "0"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Definition of Orthogonality</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Concept</strong><br>\n    Two vectors are orthogonal (perpendicular) to each other if and only if their dot product (inner product) is zero. This essentially means there is no projection of one vector onto the other.\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 0 (Option b).\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Inner Product"
+    ],
+    "Question": {
+      "content": "Consider the vector \\( U = (2, 10) \\) and \\( V = (6, 8) \\) in \\( R^2 \\). Find \\( <u \\cdot v> \\) as a function of the inner product in \\( R^2 \\).",
+      "type": "OBJ",
+      "options": [
+        "4",
+        "80",
+        "88",
+        "92"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "92"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Calculating Inner Product</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Formula</strong><br>\n    The inner product \\( <u \\cdot v> \\) in \\( R^2 \\) is the same as the dot product: \\( u_1v_1 + u_2v_2 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Substitution</strong><br>\n    \\( U = (2, 10) \\), \\( V = (6, 8) \\)<br>\n    \\( <u \\cdot v> = (2 \\times 6) + (10 \\times 8) \\)<br>\n    \\( = 12 + 80 \\)<br>\n    \\( = 92 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> 92 (Option d).\n  </div>\n</div>"
+    }
+  },
+  {
+    "tyoe": "heading",
+    "heading": "Section B",
+    "Subheading": "Answer one question only"
+  },
+  {
+    "type": "Question",
+    "name": "Question 1i",
+    "topic": [
+      "Linear Algebra",
+      "Vectors",
+      "Orthogonality"
+    ],
+    "Question": {
+      "content": "Determine k to ensure orthogonal pairs u = (1, 2, k, 3) and v = (3, k, 7, 5) in R^5.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "k = -2"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding k for Orthogonality</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Orthogonality Condition</strong><br>\n    Two vectors are orthogonal if their dot product equals zero. That is, \\( u \\cdot v = 0 \\).<br>\n    Given \\( u = (1, 2, k, 3) \\) and \\( v = (3, k, 7, 5) \\).<br>\n    <em>(Note: The question mentions R^5, but vectors only have 4 components. We proceed with the 4 given components).</em>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Calculate Dot Product</strong><br>\n    \\( (1 \\times 3) + (2 \\times k) + (k \\times 7) + (3 \\times 5) = 0 \\)<br>\n    \\( 3 + 2k + 7k + 15 = 0 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve for k</strong><br>\n    Combine like terms:<br>\n    \\( 9k + 18 = 0 \\)<br>\n    \\( 9k = -18 \\)<br>\n    \\( k = -2 \\)\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> k = -2\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 1ii",
+    "topic": [
+      "Linear Algebra",
+      "Matrices",
+      "Eigenvalues"
+    ],
+    "Question": {
+      "content": "Find the Eigenvalues and Eigenvector associated with 3x3 matrix A = [-2 -4 2; -2 1 2; 4 2 5]",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Eigenvalues: 3, 6, -5"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Finding Eigenvalues</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Characteristic Equation</strong><br>\n    We solve \\( \\det(A - \\lambda I) = 0 \\).<br>\n    \\( \\det \\begin{pmatrix} -2-\\lambda & -4 & 2 \\\\ -2 & 1-\\lambda & 2 \\\\ 4 & 2 & 5-\\lambda \\end{pmatrix} = 0 \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Expansion (Correction of Manual Solution)</strong><br>\n    The handwritten solution derived an incorrect cubic equation (\\( \\lambda^3 - 4\\lambda^2 - 3\\lambda + 90 = 0 \\)) and claimed complex roots. Let's solve it correctly:<br>\n    <br>\n    <strong>Using the Trace/Determinant method:</strong><br>\n    1. <strong>Trace</strong> (sum of diagonal) = \\( -2 + 1 + 5 = 4 \\). (Coefficient of \\( \\lambda^2 \\) is -4).<br>\n    2. <strong>Sum of Principal Minors</strong>:<br>\n       \\( M_{11} = (1)(5) - (2)(2) = 1 \\)<br>\n       \\( M_{22} = (-2)(5) - (2)(4) = -18 \\)<br>\n       \\( M_{33} = (-2)(1) - (-4)(-2) = -10 \\)<br>\n       Sum = \\( 1 - 18 - 10 = -27 \\). (Coefficient of \\( \\lambda \\) is -27).<br>\n    3. <strong>Determinant</strong>:<br>\n       \\( -2(5-4) + 4(-10-8) + 2(-4-4) \\)<br>\n       \\( = -2 - 72 - 16 = -90 \\). (Constant term is -(-90) = 90).<br>\n    <br>\n    <strong>Correct Characteristic Equation:</strong><br>\n    \\( \\lambda^3 - 4\\lambda^2 - 27\\lambda + 90 = 0 \\)\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Solve for Roots</strong><br>\n    Testing integer factors of 90:<br>\n    \\( \\lambda = 3: 27 - 36 - 81 + 90 = 0 \\) (Root found!)<br>\n    \\( \\lambda = 6: 216 - 144 - 162 + 90 = 0 \\) (Root found!)<br>\n    \\( \\lambda = -5: -125 - 100 + 135 + 90 = 0 \\) (Root found!)<br>\n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong> The eigenvalues are <strong>3, 6, and -5</strong>.\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2a",
+    "topic": [
+      "Coordinate Geometry",
+      "Conic Sections",
+      "Parabolas"
+    ],
+    "Question": {
+      "content": "Find the vertex, focus, directrix and axis of symmetry of the parabola \\( y^2 + 6y + 8x = 7 \\), and graph your answer.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Vertex: (2, -3), Focus: (0, -3), Directrix: x = 4, Axis: y = -3"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Analyzing the Parabola</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 1: Convert to Standard Form</strong><br>\n    Equation: \\( y^2 + 6y = -8x + 7 \\)<br>\n    Complete the square for y: Add \\( (6/2)^2 = 9 \\) to both sides.<br>\n    \\( y^2 + 6y + 9 = -8x + 7 + 9 \\)<br>\n    \\( (y + 3)^2 = -8x + 16 \\)<br>\n    Factor out -8:<br>\n    \\( (y + 3)^2 = -8(x - 2) \\).\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 2: Identify Parameters</strong><br>\n    Compare to \\( (y - k)^2 = 4a(x - h) \\):<br>\n    <ul>\n      <li><strong>Vertex (h, k):</strong> (2, -3)</li>\n      <li><strong>4a:</strong> -8 \\(\\implies a = -2\\) (Opens Left)</li>\n    </ul>\n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Step 3: Find Features</strong><br>\n    <ul>\n      <li><strong>Focus:</strong> \\( (h + a, k) = (2 + (-2), -3) = (0, -3) \\)</li>\n      <li><strong>Directrix:</strong> \\( x = h - a = 2 - (-2) \\implies x = 4 \\)</li>\n      <li><strong>Axis of Symmetry:</strong> \\( y = k \\implies y = -3 \\)</li>\n    </ul>\n   \n  </div>\n\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\n    <strong>✓ Final Answer:</strong><br>\n    Vertex: (2, -3)<br>\n    Focus: (0, -3)<br>\n    Directrix: x = 4<br>\n    Axis: y = -3\n  </div>\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2b",
+    "topic": [
+      "Coordinate Geometry",
+      "Circles",
+      "Area & Circumference"
+    ],
+    "Question": {
+      "content": "The townsfolk of Pleasantville erected a statue... The large circle is \\( x^2 + y^2 = 5625 \\) and the small circle is \\( x^2 + y^2 = 100 \\). Determine radii, areas, and circumference.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) 75m, 10m (ii) 5625π m², 100π m² (iii) 5525π m² (iv) 150π m"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Circle Calculations</h4>\n  \n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Part i: Radii</strong><br>\n    Standard form: \\( x^2 + y^2 = r^2 \\).<br>\n    Big Circle: \\( r^2 = 5625 \\implies r = \\sqrt{5625} = 75 \\)m.<br>\n    Small Circle: \\( r^2 = 100 \\implies r = \\sqrt{100} = 10 \\)m.<br>\n   \n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Part ii: Areas</strong><br>\n    Area \\( A = \\pi r^2 \\).<br>\n    Park Area (Big): \\( \\pi (75)^2 = 5625\\pi \\, m^2 \\).<br>\n    Concrete Area (Small): \\( \\pi (10)^2 = 100\\pi \\, m^2 \\).<br>\n   \n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Part iii: Area of Grass</strong><br>\n    Grass = Park Area - Concrete Area<br>\n    \\( 5625\\pi - 100\\pi = 5525\\pi \\, m^2 \\).<br>\n   \n  </div>\n\n  <div style='margin-bottom: 12px;'>\n    <strong style='color: var(--strongColor);'>Part iv: Circumference of Park</strong><br>\n    Circumference \\( C = 2\\pi r \\).<br>\n    \\( C = 2 \\times \\pi \\times 75 = 150\\pi \\)m.<br>\n   \n  </div>\n</div>"
+    }
+  }
+  
+  
+  
+]
